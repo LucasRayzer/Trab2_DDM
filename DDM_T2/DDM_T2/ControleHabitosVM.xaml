@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       Title="Estatísticas">
+    <StackLayout Padding="10">
+        <Label Text="Estatísticas de Progresso" FontSize="Large" HorizontalOptions="Center" />
+        <!-- Adicione gráficos ou resumos aqui, usando gráficos ou barras de progresso -->
+        <Label Text="Tarefas concluídas: 5 de 10" />
+        <Label Text="Hábitos mantidos: 3 de 5 dias" />
+    </StackLayout>
+
+</ContentPage>
