@@ -1,0 +1,15 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trabalho02.Pages.ProjectListPage"
+              Title="Project List">
+    <StackLayout Padding="20">
+        <ListView x:Name="ProjectsListView" ItemSelected="OnProjectSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Add Project" Clicked="OnAddProjectClicked"/>
+    </StackLayout>
+</ContentPage>

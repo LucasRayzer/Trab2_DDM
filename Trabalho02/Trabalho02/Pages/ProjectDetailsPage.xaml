@@ -1,0 +1,17 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trabalho02.Pages.ProjectDetailsPage"
+              Title="Project Details">
+    <StackLayout Padding="20">
+        <Label Text="{Binding Project.Name}" FontSize="Large" />
+        <Label Text="{Binding Project.Description}" FontSize="Medium" />
+        <ListView x:Name="TasksListViews" ItemSelected="OnTaskSelected" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding IsCompleted, StringFormat='Status: {0}'}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Add Task" Clicked="OnAddTaskClicked"/>
+    </StackLayout>
+</ContentPage>
