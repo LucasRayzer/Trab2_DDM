@@ -1,15 +1,22 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trabalho02.Pages.ProjectListPage"
-              Title="Project List">
+             Title="Project List">
     <StackLayout Padding="20">
-        <ListView x:Name="ProjectsListView" ItemSelected="OnProjectSelected">
+        <ListView x:Name="ProjectsListView" ItemSelected="OnProjectSelected" ItemsSource="{Binding Projects}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Label Text="{Binding Name}" VerticalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Description}" VerticalOptions="CenterAndExpand" />
+                            <Button Text="Excluir" Clicked="OnDeleteProjectClicked" 
+                                    CommandParameter="{Binding Id}" VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Add Project" Clicked="OnAddProjectClicked"/>
+        <Button Text="Add Project" Clicked="OnAddProjectClicked" />
     </StackLayout>
 </ContentPage>

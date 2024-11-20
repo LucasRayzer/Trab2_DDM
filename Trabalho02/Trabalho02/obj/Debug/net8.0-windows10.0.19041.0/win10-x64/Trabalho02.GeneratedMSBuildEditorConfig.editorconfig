@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Trabalho02
-build_property.ProjectDir = C:\Users\Lucas Rayzer\source\repos\Trabalho02\Trabalho02\
+build_property.ProjectDir = C:\Users\marci\Downloads\GIT\Trab2_DDM\Trabalho02\Trabalho02\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/App.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/AppShell.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/MainPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Pages/LoginPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Pages/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Pages.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Pages/ProgressReportPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Pages/ProgressReportPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Pages.ProgressReportPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProgressReportPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProgressReportPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Pages/ProjectDetailsPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Pages/ProjectDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Pages.ProjectDetailsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProjectDetailsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProjectDetailsPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Pages/ProjectListPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Pages/ProjectListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Pages.ProjectListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProjectListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProjectListPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Pages/TaskDetailsPage.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Pages/TaskDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Pages.TaskDetailsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\TaskDetailsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\TaskDetailsPage.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Resources/Styles/Colors.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Lucas Rayzer/source/repos/Trabalho02/Trabalho02/Resources/Styles/Styles.xaml]
+[C:/Users/marci/Downloads/GIT/Trab2_DDM/Trabalho02/Trabalho02/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trabalho02.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -35,7 +35,7 @@ namespace Trabalho02.Service
             {
                 existingProject.Name = project.Name;
                 existingProject.Description = project.Description;
-                existingProject.Tasks = project.Tasks;
+               // existingProject.Tasks = project.Tasks;
             }
         }
         }
