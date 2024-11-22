@@ -1,21 +1,58 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trabalho02.Pages.ProjectDetailsPage"
-             Title="Project Details">
-    <StackLayout Padding="20">
-        <Label Text="{Binding Project.Name}" FontSize="24" FontAttributes="Bold" />
-        <Label Text="{Binding Project.Description}" FontSize="14" />
+             Title="Detalhes do Projeto">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            
+            <Label Text="Título do Projeto" FontSize="18" FontAttributes="Bold" TextColor="Gray" />
+            <Label Text="{Binding Project.Name}" FontSize="24" FontAttributes="Bold" TextColor="White" />
 
-        <ListView x:Name="TasksListView" 
-                  ItemsSource="{Binding Tasks}" 
-                  ItemSelected="OnTaskSelected">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Title}" Detail="{Binding ProgressStatus}" />
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            
+            <Label Text="Descrição do Projeto" FontSize="18" FontAttributes="Bold" TextColor="Gray" />
+            <Label Text="{Binding Project.Description}" FontSize="14" TextColor="WhiteSmoke" />
 
-        <Button Text="Add Task" Clicked="OnAddTaskClicked"/>
-    </StackLayout>
+           
+            <Label Text="Tarefas" FontSize="18" FontAttributes="Bold" TextColor="Gray" />
+            <ListView x:Name="TasksListView" 
+                      ItemsSource="{Binding Tasks}" 
+                      ItemSelected="OnTaskSelected" 
+                      HasUnevenRows="True"
+                      HeightRequest="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" 
+                                  Detail="{Binding ProgressStatus}" 
+                                  TextColor="White" 
+                                  DetailColor="LightGray" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+           
+            <Button Text="Adicionar Tarefa" Clicked="OnAddTaskClicked" 
+                    BackgroundColor="#007ACC" 
+                    TextColor="White" 
+                    CornerRadius="10" />
+
+            <Label Text="Hábitos" FontSize="18" FontAttributes="Bold" TextColor="Gray" />
+            <ListView x:Name="HabitsListView" 
+                     HeightRequest="200"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell 
+                                  TextColor="White" 
+                                  DetailColor="LightGray" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+          
+            <Button Text="Adicionar Hábito" 
+                    BackgroundColor="#28A745" 
+                    TextColor="White" 
+                    CornerRadius="10" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

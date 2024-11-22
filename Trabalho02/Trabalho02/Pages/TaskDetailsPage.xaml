@@ -1,12 +1,39 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trabalho02.Pages.TaskDetailsPage"
-              Title="Details Tasks">
-    <StackLayout Padding="20">
-        <Entry Text="{Binding Task.Name}" Placeholder="Task Name" />
-        <Switch IsToggled="{Binding Task.IsCompleted}" />
-        <Label Text="Completed" />
-        <Entry Text="{Binding Task.AssignedTo}" Placeholder="Assigned To" />
-        <Button Text="Save" Clicked="OnSaveClicked" />
+             Title="Detalhes da Tarefas">
+    <StackLayout Padding="20" Spacing="15">
+
+        <Label Text="Novo nome" FontSize="16" TextColor="Gray" />
+        <Entry Text="{Binding Task.Name}" 
+               Placeholder="Task Name" 
+               FontSize="18"
+               Margin="0,0,0,10"/>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Label Text="Concluir Tarefa" 
+                   VerticalOptions="Center" 
+                   FontSize="16" 
+                   TextColor="Gray" />
+            <Switch IsToggled="{Binding Task.IsCompleted}" 
+                 HorizontalOptions="EndAndExpand" 
+                OnColor="Green" />
+        </StackLayout>
+
+       
+        <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
+            <Button Text="Salvar" 
+                    Clicked="OnSaveClicked" 
+                    BackgroundColor="#4CAF50" 
+                    TextColor="White" 
+                    CornerRadius="10"
+                    WidthRequest="120" />
+            <Button Text="Excluir" 
+                    Clicked="OnDeleteClicked" 
+                    BackgroundColor="#F44336" 
+                    TextColor="White" 
+                    CornerRadius="10"
+                    WidthRequest="120" />
+        </StackLayout>
     </StackLayout>
 </ContentPage>

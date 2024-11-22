@@ -47,9 +47,15 @@ namespace Trabalho02.Database
         // Métodos CRUD para Task
         public Task<int> SaveTaskAsync(Model.Task task)
         {
-            return _database.InsertOrReplaceAsync(task);
+            if (task.Id == 0)
+            {
+                return _database.InsertAsync(task); // Insere se for nova
+            }
+            else
+            {
+                return _database.UpdateAsync(task); // Atualiza se já existir
+            }
         }
-
         public Task<List<Model.Task>> GetTasksAsync()
         {
             return _database.Table<Model.Task>().ToListAsync();
@@ -73,7 +79,7 @@ namespace Trabalho02.Database
         // Métodos CRUD para User
         public Task<int> SaveUserAsync(User user)
         {
-            return _database.InsertOrReplaceAsync(user);
+            return _database.InsertAsync(user);
         }
 
         public Task<List<User>> GetUsersAsync()
@@ -90,5 +96,6 @@ namespace Trabalho02.Database
         {
             return _database.DeleteAsync(user);
         }
+    
     }
 }

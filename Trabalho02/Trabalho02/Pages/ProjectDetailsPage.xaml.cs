@@ -42,8 +42,7 @@ namespace Trabalho02.Pages
         {
             if (e.SelectedItem is Model.Task task)
             {
-                // Navega para a página de detalhes da tarefa
-                await Navigation.PushAsync(new TaskDetailsPage(task));
+                await Navigation.PushAsync(new TaskDetailsPage(task, _databaseService));
             }
 
             // Deseleciona o item após o clique
