@@ -18,7 +18,6 @@ namespace Trabalho02.Converters
         {
             if (value is int taskId && _databaseService != null)
             {
-                // Retorna uma Task com título
                 var task = Task.Run(() => _databaseService.GetTaskByIdAsync(taskId)).Result;
                 return task?.Title ?? "Tarefa Desconhecida";
             }

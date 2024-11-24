@@ -12,13 +12,12 @@ namespace Trabalho02.Model
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        public string Title { get; set; }  // Nome do hábito
-        public string Description { get; set; }  // Descrição do hábito
-        public string Frequency { get; set; }  // Frequência (ex.: "Diário", "Semanal")
-        public string Goal { get; set; }  // Meta (ex.: "3 vezes por semana")
-        public int Progress { get; set; }  // Progresso atual
-        public bool IsCompletedToday { get; set; }  // Status do dia atual
-        // Associação com Task
-        public int TaskId { get; set; }  // ID da tarefa associada 
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Frequency { get; set; }
+        public string Goal { get; set; }
+        public int Progress { get; set; }
+        public bool IsCompletedToday { get; set; }
+        public int TaskId { get; set; }
     }
 }

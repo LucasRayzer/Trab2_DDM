@@ -10,25 +10,22 @@ namespace Trabalho02.Pages
         public LoginPage(DatabaseService databaseService)
         {
             InitializeComponent();
-            _databaseService = databaseService; // Injeta a instância do serviço de banco de dados
+            _databaseService = databaseService;
         }
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
-            // Captura as entradas do usuário
             var username = UsernameEntry.Text?.Trim();
             var password = PasswordEntry.Text?.Trim();
 
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
             {
-                // Busca o usuário no banco de dados
                 var user = await _databaseService.GetUserByUsernameAsync(username);
 
                 if (user != null && user.Password == password)
                 {
-                    // Login bem-sucedido
                     await DisplayAlert("Sucesso", "Login realizado com sucesso!", "OK");
-                    await Navigation.PushAsync(new ProjectListPage(_databaseService)); // Redireciona para a página de projetos
+                    await Navigation.PushAsync(new ProjectListPage(_databaseService));
                 }
                 else
                 {
@@ -43,17 +40,14 @@ namespace Trabalho02.Pages
 
         private async void OnRegisterClicked(object sender, EventArgs e)
         {
-            // Captura as entradas do usuário
             var username = UsernameEntry.Text?.Trim();
             var password = PasswordEntry.Text?.Trim();
 
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
             {
-                // Verifica se o usuário já existe
                 var existingUser = await _databaseService.GetUserByUsernameAsync(username);
                 if (existingUser == null)
                 {
-                    // Salva o novo usuário
                     var newUser = new User { Username = username, Password = password };
                     await _databaseService.SaveUserAsync(newUser);
 

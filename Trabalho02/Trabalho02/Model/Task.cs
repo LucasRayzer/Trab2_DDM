@@ -12,11 +12,11 @@ namespace Trabalho02.Model
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        public string Title { get; set; }  // Título da tarefa
-        public string Description { get; set; }  // Descrição da tarefa
-        public DateTime DueDate { get; set; }  // Data de conclusão
-        public bool IsCompleted { get; set; }  // Status de conclusão
-        public string ProgressStatus { get; set; }  // Status de progresso (ex.: "Em andamento", "Atrasada")
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public DateTime DueDate { get; set; }
+        public bool IsCompleted { get; set; }
+        public string ProgressStatus { get; set; }
         public int ProjectId { get; set; }
     }
 }

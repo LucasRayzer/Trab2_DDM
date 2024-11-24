@@ -8,13 +8,12 @@ namespace Trabalho02.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            // Verifica se o valor é um booleano
             if (value is bool isCompleted)
             {
                 return isCompleted ? "Concluída" : "Em andamento";
             }
 
-            return "Em andamento"; // Valor padrão
+            return "Em andamento";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

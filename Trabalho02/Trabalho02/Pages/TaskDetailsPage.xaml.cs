@@ -7,7 +7,7 @@ namespace Trabalho02.Pages
     {
         private readonly DatabaseService _databaseService;
         public Model.Task Task { get; set; }
-        public Action TaskUpdatedCallback { get; set; } // Callback para notificar alterações
+        public Action TaskUpdatedCallback { get; set; }
 
         public TaskDetailsPage(Model.Task task, DatabaseService databaseService)
         {
@@ -19,29 +19,25 @@ namespace Trabalho02.Pages
 
         private async void OnSaveClicked(object sender, EventArgs e)
         {
-            // Atualiza a tarefa no banco de dados
             await _databaseService.SaveTaskAsync(Task);
 
-            // Chama o callback para notificar que a tarefa foi atualizada
             TaskUpdatedCallback?.Invoke();
 
             await DisplayAlert("Sucesso", "Tarefa atualizada com sucesso!", "OK");
-            await Navigation.PopAsync(); // Volta para a tela anterior
+            await Navigation.PopAsync();
         }
 
         private async void OnDeleteClicked(object sender, EventArgs e)
         {
-            // Confirmação de exclusão
             bool confirm = await DisplayAlert("Excluir Tarefa", $"Deseja excluir a tarefa '{Task.Title}'?", "Sim", "Não");
             if (confirm)
             {
                 await _databaseService.DeleteTaskAsync(Task);
 
-                // Chama o callback para notificar que a tarefa foi excluída
                 TaskUpdatedCallback?.Invoke();
 
                 await DisplayAlert("Sucesso", "Tarefa excluída com sucesso!", "OK");
-                await Navigation.PopAsync(); // Volta para a tela anterior
+                await Navigation.PopAsync();
             }
         }
     }

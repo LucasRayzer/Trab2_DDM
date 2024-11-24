@@ -11,8 +11,6 @@ namespace Trabalho02
             InitializeComponent();
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "AppData.db");
             var databaseService = new DatabaseService(dbPath);
-
-            // Define a LoginPage como a página inicial, passando o DatabaseService
             MainPage = new NavigationPage(new LoginPage(databaseService));
             TaskNameConverter.Initialize(databaseService);
             //MainPage = new AppShell();

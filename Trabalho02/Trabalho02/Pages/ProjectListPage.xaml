@@ -8,12 +8,10 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Padding="10" Spacing="10" >
-                            <!-- Text Layout -->
                             <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                                 <Label Text="{Binding Name}" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
                                 <Label Text="{Binding Description}" VerticalOptions="CenterAndExpand" />
                             </StackLayout>
-                            <!-- Delete Button -->
                             <Button Text="Excluir"
                                      BackgroundColor="Red"
                                     Clicked="OnDeleteProjectClicked" 

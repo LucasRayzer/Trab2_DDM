@@ -13,7 +13,6 @@ namespace Trabalho02.Service
 
         public UserService()
         {
-            // Adiciona alguns usuários para teste
             Users.Add(new User { Username = "admin", Password = "admin" });
         }
 

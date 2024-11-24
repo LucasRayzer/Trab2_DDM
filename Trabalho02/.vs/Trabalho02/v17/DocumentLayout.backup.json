@@ -1,109 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\",
+  "WorkspaceRootPath": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\taskdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\taskdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\converters\\taskstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\converters\\taskstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\converters\\tasknameconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\converters\\tasknameconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\projectdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\taskdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\taskdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\taskdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\taskdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\taskdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\converters\\taskstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\converters\\taskstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\projectdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\projectlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\converters\\tasknameconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\converters\\tasknameconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\model\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\pages\\progressreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\progressreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\progressreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\service\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\service\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\service\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\lucas rayzer\\desktop\\trab2_ddm\\trabalho02\\trabalho02\\trabalho02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\trabalho02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\trabalho02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,86 +130,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Habit.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Model\\Habit.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
-              "RelativeToolTip": "Trabalho02\\Model\\Habit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:15:41.083Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "HabitDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:45:08.611Z"
+              "Title": "ProjectDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml",
+              "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T22:53:16.978Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProjectDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
-              "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAUwIEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:53:30.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskStatusConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskStatusConverter.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Converters\\TaskStatusConverter.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskStatusConverter.cs",
-              "RelativeToolTip": "Trabalho02\\Converters\\TaskStatusConverter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:00:09.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-12T22:57:44.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TaskDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
-              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:13:40.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml.cs",
               "RelativeToolTip": "Trabalho02\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,12 +155,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TaskDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
+              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:13:40.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
+              "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwI0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:53:30.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskStatusConverter.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskStatusConverter.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Converters\\TaskStatusConverter.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskStatusConverter.cs",
+              "RelativeToolTip": "Trabalho02\\Converters\\TaskStatusConverter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:00:09.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HabitDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
               "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-24T06:44:52.106Z",
               "EditorCaption": ""
@@ -232,9 +206,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\User.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\User.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\User.cs",
               "RelativeToolTip": "Trabalho02\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,11 +216,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
+              "Title": "Habit.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Model\\Habit.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
+              "RelativeToolTip": "Trabalho02\\Model\\Habit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:15:41.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HabitDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:45:08.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProjectListPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectListPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectListPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectListPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectListPage.xaml",
               "RelativeToolTip": "Trabalho02\\Pages\\ProjectListPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -254,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "DatabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Database\\DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Database\\DatabaseService.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Database\\DatabaseService.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Database\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Database\\DatabaseService.cs",
               "RelativeToolTip": "Trabalho02\\Database\\DatabaseService.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAIwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,36 +265,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskNameConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskNameConverter.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Converters\\TaskNameConverter.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskNameConverter.cs",
-              "RelativeToolTip": "Trabalho02\\Converters\\TaskNameConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:19:01.63Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "TaskDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T22:57:44.366Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProjectDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml",
-              "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-12T22:53:16.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Task.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Task.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\Task.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Task.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Task.cs",
               "RelativeToolTip": "Trabalho02\\Model\\Task.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml.cs",
               "RelativeToolTip": "Trabalho02\\Pages\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\AppShell.xaml.cs",
               "RelativeToolTip": "Trabalho02\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\MainPage.xaml.cs",
               "RelativeToolTip": "Trabalho02\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\LoginPage.xaml",
               "RelativeToolTip": "Trabalho02\\Pages\\LoginPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -351,11 +337,23 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskNameConverter.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskNameConverter.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Converters\\TaskNameConverter.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskNameConverter.cs",
+              "RelativeToolTip": "Trabalho02\\Converters\\TaskNameConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:19:01.63Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Statistic.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Statistic.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Statistic.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\Statistic.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Statistic.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Statistic.cs",
               "RelativeToolTip": "Trabalho02\\Model\\Statistic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -365,9 +363,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "ProgressReportPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProgressReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProgressReportPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProgressReportPage.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProgressReportPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProgressReportPage.xaml",
               "RelativeToolTip": "Trabalho02\\Pages\\ProgressReportPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -377,9 +375,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Project.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Project.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\Project.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Project.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Project.cs",
               "RelativeToolTip": "Trabalho02\\Model\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -389,9 +387,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\ProjectService.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Service\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\ProjectService.cs",
               "RelativeToolTip": "Trabalho02\\Service\\ProjectService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -401,9 +399,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Service\\UserService.cs",
               "RelativeToolTip": "Trabalho02\\Service\\UserService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -413,9 +411,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Trabalho02\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\MauiProgram.cs",
               "RelativeToolTip": "Trabalho02\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -425,9 +423,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\App.xaml",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml",
               "RelativeToolTip": "Trabalho02\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -437,9 +435,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Trabalho02.csproj",
-              "DocumentMoniker": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
               "RelativeDocumentMoniker": "Trabalho02\\Trabalho02.csproj",
-              "ToolTip": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
               "RelativeToolTip": "Trabalho02\\Trabalho02.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -15,15 +15,12 @@ namespace Trabalho02.Database
 
             _database = new SQLiteAsyncConnection(dbPath);
 
-            // Criação das tabelas
             _database.CreateTableAsync<Project>().Wait();
             _database.CreateTableAsync<Model.Task>().Wait();
             _database.CreateTableAsync<User>().Wait();
             _database.CreateTableAsync<Habit>().Wait();
             _database.CreateTableAsync<Statistic>().Wait();
         }
-
-        // Métodos CRUD para Project
         public Task<int> SaveProjectAsync(Project project)
         {
             return _database.InsertAsync(project);
@@ -44,16 +41,15 @@ namespace Trabalho02.Database
             return _database.DeleteAsync(project);
         }
 
-        // Métodos CRUD para Task
         public Task<int> SaveTaskAsync(Model.Task task)
         {
             if (task.Id == 0)
             {
-                return _database.InsertAsync(task); // Insere se for nova
+                return _database.InsertAsync(task);
             }
             else
             {
-                return _database.UpdateAsync(task); // Atualiza se já existir
+                return _database.UpdateAsync(task);
             }
         }
         public Task<List<Model.Task>> GetTasksAsync()
@@ -76,7 +72,6 @@ namespace Trabalho02.Database
             return _database.DeleteAsync(task);
         }
 
-        // Métodos CRUD para User
         public Task<int> SaveUserAsync(User user)
         {
             return _database.InsertAsync(user);
@@ -96,34 +91,30 @@ namespace Trabalho02.Database
         {
             return _database.DeleteAsync(user);
         }
-        // Métodos CRUD para Habit
-        // Salvar ou atualizar um hábito
+
         public Task<int> SaveHabitAsync(Habit habit)
         {
             if (habit.Id == 0)
             {
-                return _database.InsertAsync(habit); // Insere se for novo
+                return _database.InsertAsync(habit); 
             }
             else
             {
-                return _database.UpdateAsync(habit); // Atualiza se já existir
+                return _database.UpdateAsync(habit);
             }
         }
 
-        // Obter hábitos por TaskId
         public Task<List<Habit>> GetHabitsByTaskIdAsync(int taskId)
         {
             return _database.Table<Habit>().Where(h => h.TaskId == taskId).ToListAsync();
         }
 
-        // Obter hábitos por ProjectId (opcional, se necessário para listar hábitos de um projeto)
         public Task<List<Habit>> GetHabitsByProjectIdAsync(int projectId)
         {
             return _database.QueryAsync<Habit>(
                 "SELECT * FROM Habit WHERE TaskId IN (SELECT Id FROM Task WHERE ProjectId = ?)", projectId);
         }
 
-        // Deletar hábito
         public Task<int> DeleteHabitAsync(Habit habit)
         {
             return _database.DeleteAsync(habit);

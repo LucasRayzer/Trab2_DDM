@@ -19,7 +19,7 @@ namespace Trabalho02
 
         private async void GoToProgressReportPage(object sender, EventArgs e)   
         {
-            await Navigation.PushAsync(new ProgressReportPage());
+           // await Navigation.PushAsync(new ProgressReportPage());
         }
     }
 

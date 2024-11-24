@@ -12,9 +12,9 @@ namespace Trabalho02.Model
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        public string Type { get; set; }  // Tipo (ex.: "Tarefa", "Hábito")
-        public DateTime Date { get; set; }  // Data de registro
-        public string Detail { get; set; }  // Detalhes (ex.: "Tarefa concluída: 'Estudar'")
-        public int TotalCompleted { get; set; }  // Total concluído no período
+        public string Type { get; set; }
+        public DateTime Date { get; set; }
+        public string Detail { get; set; }
+        public int TotalCompleted { get; set; }
     }
 }

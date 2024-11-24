@@ -13,7 +13,6 @@ namespace Trabalho02.Service
 
         public ProjectService()
         {
-            // Inicialização com alguns projetos de exemplo
             Projects.Add(new Project { Id = 1, Name = "Example Project 1", Description = "An example project" });
             Projects.Add(new Project { Id = 2, Name = "Example Project 2", Description = "Another example project" });
         }
@@ -35,7 +34,6 @@ namespace Trabalho02.Service
             {
                 existingProject.Name = project.Name;
                 existingProject.Description = project.Description;
-               // existingProject.Tasks = project.Tasks;
             }
         }
         }
