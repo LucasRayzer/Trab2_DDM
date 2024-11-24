@@ -123,7 +123,7 @@ namespace Trabalho02.Pages
             string title = await DisplayPromptAsync("Novo Hábito", "Título do Hábito:");
             string description = await DisplayPromptAsync("Descrição do Hábito", "Descrição do Hábito:");
             string frequency = await DisplayPromptAsync("Frequência", "Informe a frequência (ex.: Diário):");
-            int goal = int.Parse(await DisplayPromptAsync("Meta", "Informe a meta (ex.: 3):"));
+            string goal = await DisplayPromptAsync("Meta", "Informe a meta (ex.: 3):");
 
             if (!string.IsNullOrEmpty(title) && !string.IsNullOrEmpty(description))
             {
