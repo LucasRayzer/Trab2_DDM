@@ -7,16 +7,23 @@
         <Entry Text="{Binding Task.Title}" Placeholder="Título da tarefa"/>
 
         <Label Text="Descrição" FontSize="16" FontAttributes="Bold"/>
-        <Editor Text="{Binding Task.Description}" Placeholder="Descrição da tarefa" HeightRequest="100"/>
+        <Editor Text="{Binding Task.Description}" Placeholder="Descrição da tarefa" MaximumHeightRequest="100" HeightRequest="50"/>
 
         <Label Text="Data de Conclusão" FontSize="16" FontAttributes="Bold"/>
         <DatePicker Date="{Binding Task.DueDate}"/>
-
-        <Label Text="Status de Conclusão" FontSize="16" FontAttributes="Bold"/>
-        <Switch IsToggled="{Binding Task.IsCompleted}"/>
-        <Label Text="{Binding TaskStatusText}" FontSize="14" TextColor="Gray"/>
-
-        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" />
-        <Button Text="Excluir Tarefa" Clicked="OnDeleteClicked" TextColor="Red"/>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="FillAndExpand">
+            <Label Text="Status de Conclusão" 
+                   FontSize="16"
+                   VerticalOptions="Center" 
+                   FontAttributes="Bold"/>
+            <Switch IsToggled="{Binding Task.IsCompleted}"
+                    HorizontalOptions="EndAndExpand"
+                    OnColor="Green" />
+            <Label Text="{Binding TaskStatusText}" FontSize="14" TextColor="Gray"/>
+        </StackLayout>
+       
+        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" Background="Green" />
+        <Button Text="Excluir Tarefa" Clicked="OnDeleteClicked" BackgroundColor="Red"/>
     </StackLayout>
 </ContentPage>

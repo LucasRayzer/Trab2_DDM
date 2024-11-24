@@ -8,7 +8,7 @@
         <Entry Text="{Binding Habit.Title}" Placeholder="Título do hábito"/>
 
         <Label Text="Descrição" FontSize="16" FontAttributes="Bold"/>
-        <Editor Text="{Binding Habit.Description}" Placeholder="Descrição do hábito" HeightRequest="100"/>
+        <Editor Text="{Binding Habit.Description}" Placeholder="Descrição do hábito" MaximumHeightRequest="100" HeightRequest="50"/>
 
         <Label Text="Frequência" FontSize="16" FontAttributes="Bold"/>
         <Entry Text="{Binding Habit.Frequency}" Placeholder="Frequência (ex.: Diário, Semanal)"/>
@@ -18,12 +18,17 @@
 
         <Label Text="Progresso Atual" FontSize="16" FontAttributes="Bold"/>
         <Entry Text="{Binding Habit.Progress}" Keyboard="Numeric" Placeholder="Progresso atual"/>
-
-        <Label Text="Status de Hoje" FontSize="16" FontAttributes="Bold"/>
-        <Switch IsToggled="{Binding Habit.IsCompletedToday}"/>
+        <StackLayout Orientation="Horizontal"
+             HorizontalOptions="FillAndExpand">
+        <Label Text="Status de Hoje" FontSize="16" FontAttributes="Bold"
+                VerticalOptions="Center" />
+        <Switch IsToggled="{Binding Habit.IsCompletedToday}"
+               HorizontalOptions="EndAndExpand"
+                OnColor="Green"  />
+        
+        </StackLayout>
         <Label Text="{Binding IsCompletedTodayText}" FontSize="14" TextColor="Gray"/>
-
-        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" />
-        <Button Text="Excluir Hábito" Clicked="OnDeleteClicked" TextColor="Red"/>
+        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" BackgroundColor="Green" />
+        <Button Text="Excluir Hábito" Clicked="OnDeleteClicked" BackgroundColor="Red"/>
     </StackLayout>
 </ContentPage>

@@ -23,6 +23,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Add Project" Clicked="OnAddProjectClicked"  BackgroundColor="#007ACC"/>
+        <Button Text="Adicionar Projeto" Clicked="OnAddProjectClicked"  BackgroundColor="#007ACC"/>
     </StackLayout>
 </ContentPage>
