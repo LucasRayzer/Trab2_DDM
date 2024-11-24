@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\projectdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\projectdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\projectdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,20 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HabitDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:45:08.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\App.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\App.xaml.cs",
@@ -156,20 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-12T22:57:44.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProjectDetailsPage.xaml",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
@@ -182,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaskStatusConverter.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Converters\\TaskStatusConverter.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Converters\\TaskStatusConverter.cs",
@@ -231,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TaskDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
@@ -256,7 +230,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "HabitDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T06:44:52.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HabitDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:45:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T22:57:44.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProjectDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
@@ -269,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Task.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\Task.cs",
@@ -291,19 +304,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T06:43:40.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HabitDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T06:44:52.106Z",
               "EditorCaption": ""
             },
             {
