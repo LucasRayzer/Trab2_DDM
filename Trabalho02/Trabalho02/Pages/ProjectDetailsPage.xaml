@@ -1,7 +1,15 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trabalho02.Pages.ProjectDetailsPage"
+             xmlns:converters="clr-namespace:Trabalho02.Converters"
+             xmlns:Converters="clr-namespace:Trabalho02.Converters"
              Title="Detalhes do Projeto">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Converters:TaskNameConverter x:Key="TaskNameConverter" />
+            <Converters:TaskStatusConverter x:Key="TaskStatusConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ScrollView>
         <StackLayout Padding="20" Spacing="15">
             
@@ -22,7 +30,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding Title}" 
-                                  Detail="{Binding ProgressStatus}" 
+                                  Detail="{Binding IsCompleted, Converter={StaticResource TaskStatusConverter}}" 
                                   TextColor="White" 
                                   DetailColor="LightGray" />
                     </DataTemplate>
@@ -37,22 +45,29 @@
 
             <Label Text="Hábitos" FontSize="18" FontAttributes="Bold" TextColor="Gray" />
             <ListView x:Name="HabitsListView" 
-                     HeightRequest="200"
+                      ItemsSource="{Binding Habits}" 
+                      ItemSelected="OnHabitSelected"
+                      HeightRequest="200" 
                       HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell 
-                                  TextColor="White" 
-                                  DetailColor="LightGray" />
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <Label Text="{Binding Title}" FontSize="16" TextColor="White" />
+                                <Label Text="{Binding Description}" FontSize="14" TextColor="LightGray" />
+                                <Label Text="{Binding TaskId, Converter={StaticResource TaskNameConverter}}" 
+                                       FontSize="12" TextColor="Gray" />
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-
-          
             <Button Text="Adicionar Hábito" 
-                    BackgroundColor="#28A745" 
-                    TextColor="White" 
-                    CornerRadius="10" />
+                Clicked="OnAddHabitClicked" 
+                BackgroundColor="#28A745" 
+                TextColor="White" 
+                CornerRadius="10" />
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

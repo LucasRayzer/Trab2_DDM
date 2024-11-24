@@ -9,6 +9,7 @@ namespace Trabalho02.Pages
         private readonly DatabaseService _databaseService;
         public Project Project { get; set; }
         public ObservableCollection<Model.Task> Tasks { get; set; }
+        public ObservableCollection<Habit> Habits { get; set; }
 
         public ProjectDetailsPage(Project project, DatabaseService databaseService)
         {
@@ -19,17 +20,23 @@ namespace Trabalho02.Pages
             Tasks = new ObservableCollection<Model.Task>();
             TasksListView.ItemsSource = Tasks;
 
+            // Inicializa a coleção de hábitos
+            Habits = new ObservableCollection<Habit>();
+            HabitsListView.ItemsSource = Habits;
+
             // Defina o projeto no BindingContext
             Project = project;
             BindingContext = this;
 
             // Carrega as tarefas associadas ao projeto
             LoadTasks();
+            // Carrega os hábitos associados ao projeto
+            LoadHabits();
         }
 
-        private async void LoadTasks()
+        private async System.Threading.Tasks.Task LoadTasks()
         {
-            // Busca as tarefas associadas ao projeto
+            // Busca as tarefas associadas ao projeto no banco de dados
             var tasks = await _databaseService.GetTasksByProjectIdAsync(Project.Id);
             Tasks.Clear();
             foreach (var task in tasks)
@@ -38,16 +45,28 @@ namespace Trabalho02.Pages
             }
         }
 
+
         private async void OnTaskSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem is Model.Task task)
             {
-                await Navigation.PushAsync(new TaskDetailsPage(task, _databaseService));
+                // Navega para a TaskDetailsPage e configura o callback
+                var taskDetailsPage = new TaskDetailsPage(task, _databaseService)
+                {
+                    TaskUpdatedCallback = async () =>
+                    {
+                        // Atualiza a lista de tarefas quando alterações forem feitas
+                        await LoadTasks();
+                    }
+                };
+
+                await Navigation.PushAsync(taskDetailsPage);
             }
 
             // Deseleciona o item após o clique
             TasksListView.SelectedItem = null;
         }
+
 
         private async void OnAddTaskClicked(object sender, EventArgs e)
         {
@@ -76,5 +95,74 @@ namespace Trabalho02.Pages
                 Tasks.Add(newTask);
             }
         }
+        private async void LoadHabits()
+        {
+            // Busca os hábitos associados ao projeto
+            var habits = await _databaseService.GetHabitsByProjectIdAsync(Project.Id);
+            Habits.Clear();
+            foreach (var habit in habits)
+            {
+                Habits.Add(habit);
+            }
+        }
+
+        private async void OnAddHabitClicked(object sender, EventArgs e)
+        {
+            // Permite ao usuário selecionar uma tarefa
+            var taskTitles = Tasks.Select(t => t.Title).ToArray();
+            string selectedTaskTitle = await DisplayActionSheet("Selecione a Tarefa", "Cancelar", null, taskTitles);
+
+            if (string.IsNullOrEmpty(selectedTaskTitle) || selectedTaskTitle == "Cancelar")
+                return;
+
+            // Encontra a tarefa selecionada
+            var selectedTask = Tasks.FirstOrDefault(t => t.Title == selectedTaskTitle);
+            if (selectedTask == null) return;
+
+            // Exibe prompts para criar o hábito
+            string title = await DisplayPromptAsync("Novo Hábito", "Título do Hábito:");
+            string description = await DisplayPromptAsync("Descrição do Hábito", "Descrição do Hábito:");
+            string frequency = await DisplayPromptAsync("Frequência", "Informe a frequência (ex.: Diário):");
+            int goal = int.Parse(await DisplayPromptAsync("Meta", "Informe a meta (ex.: 3):"));
+
+            if (!string.IsNullOrEmpty(title) && !string.IsNullOrEmpty(description))
+            {
+                // Cria um novo hábito associado à tarefa
+                var newHabit = new Habit
+                {
+                    Title = title,
+                    Description = description,
+                    Frequency = frequency,
+                    Goal = goal,
+                    Progress = 0,
+                    IsCompletedToday = false,
+                    TaskId = selectedTask.Id // Associa à tarefa
+                };
+
+                // Salva o hábito no banco de dados
+                await _databaseService.SaveHabitAsync(newHabit);
+
+                // Adiciona o hábito na lista exibida
+                Habits.Add(newHabit);
+            }
+        }
+        private async void OnHabitSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem is Habit selectedHabit)
+            {
+                // Abre a HabitDetailsPage
+                await Navigation.PushAsync(new HabitDetailsPage(selectedHabit, _databaseService)
+                {
+                    HabitUpdatedCallback = LoadHabits // Recarrega a lista de hábitos ao retornar
+                });
+            }
+
+            // Deseleciona o item
+            HabitsListView.SelectedItem = null;
+        }
+
     }
+
+
 }
+

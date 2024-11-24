@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trabalho02.Pages.HabitDetailsPage"
+             Title="Detalhes do Hábito">
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="Título" FontSize="16" FontAttributes="Bold"/>
+        <Entry Text="{Binding Habit.Title}" Placeholder="Título do hábito"/>
+
+        <Label Text="Descrição" FontSize="16" FontAttributes="Bold"/>
+        <Editor Text="{Binding Habit.Description}" Placeholder="Descrição do hábito" HeightRequest="100"/>
+
+        <Label Text="Frequência" FontSize="16" FontAttributes="Bold"/>
+        <Entry Text="{Binding Habit.Frequency}" Placeholder="Frequência (ex.: Diário, Semanal)"/>
+
+        <Label Text="Meta" FontSize="16" FontAttributes="Bold"/>
+        <Entry Text="{Binding Habit.Goal}" Keyboard="Numeric" Placeholder="Meta (ex.: 3 vezes por semana)"/>
+
+        <Label Text="Progresso Atual" FontSize="16" FontAttributes="Bold"/>
+        <Entry Text="{Binding Habit.Progress}" Keyboard="Numeric" Placeholder="Progresso atual"/>
+
+        <Label Text="Status de Hoje" FontSize="16" FontAttributes="Bold"/>
+        <Switch IsToggled="{Binding Habit.IsCompletedToday}"/>
+        <Label Text="{Binding IsCompletedTodayText}" FontSize="14" TextColor="Gray"/>
+
+        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" />
+        <Button Text="Excluir Hábito" Clicked="OnDeleteClicked" TextColor="Red"/>
+    </StackLayout>
+</ContentPage>

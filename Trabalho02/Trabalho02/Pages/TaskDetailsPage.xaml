@@ -1,39 +1,22 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trabalho02.Pages.TaskDetailsPage"
-             Title="Detalhes da Tarefas">
-    <StackLayout Padding="20" Spacing="15">
+             Title="Task Details">
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="Título" FontSize="16" FontAttributes="Bold"/>
+        <Entry Text="{Binding Task.Title}" Placeholder="Título da tarefa"/>
 
-        <Label Text="Novo nome" FontSize="16" TextColor="Gray" />
-        <Entry Text="{Binding Task.Name}" 
-               Placeholder="Task Name" 
-               FontSize="18"
-               Margin="0,0,0,10"/>
-        
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-            <Label Text="Concluir Tarefa" 
-                   VerticalOptions="Center" 
-                   FontSize="16" 
-                   TextColor="Gray" />
-            <Switch IsToggled="{Binding Task.IsCompleted}" 
-                 HorizontalOptions="EndAndExpand" 
-                OnColor="Green" />
-        </StackLayout>
+        <Label Text="Descrição" FontSize="16" FontAttributes="Bold"/>
+        <Editor Text="{Binding Task.Description}" Placeholder="Descrição da tarefa" HeightRequest="100"/>
 
-       
-        <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
-            <Button Text="Salvar" 
-                    Clicked="OnSaveClicked" 
-                    BackgroundColor="#4CAF50" 
-                    TextColor="White" 
-                    CornerRadius="10"
-                    WidthRequest="120" />
-            <Button Text="Excluir" 
-                    Clicked="OnDeleteClicked" 
-                    BackgroundColor="#F44336" 
-                    TextColor="White" 
-                    CornerRadius="10"
-                    WidthRequest="120" />
-        </StackLayout>
+        <Label Text="Data de Conclusão" FontSize="16" FontAttributes="Bold"/>
+        <DatePicker Date="{Binding Task.DueDate}"/>
+
+        <Label Text="Status de Conclusão" FontSize="16" FontAttributes="Bold"/>
+        <Switch IsToggled="{Binding Task.IsCompleted}"/>
+        <Label Text="{Binding TaskStatusText}" FontSize="14" TextColor="Gray"/>
+
+        <Button Text="Salvar Alterações" Clicked="OnSaveClicked" />
+        <Button Text="Excluir Tarefa" Clicked="OnDeleteClicked" TextColor="Red"/>
     </StackLayout>
 </ContentPage>

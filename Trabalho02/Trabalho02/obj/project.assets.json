@@ -35941,24 +35941,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas Rayzer\\.nuget\\packages\\": {},
+    "C:\\Users\\marci\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
+      "projectUniqueName": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
       "projectName": "Trabalho02",
-      "projectPath": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
-      "packagesPath": "C:\\Users\\Lucas Rayzer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Rayzer\\Desktop\\Trab2_DDM\\Trabalho02\\Trabalho02\\obj\\",
+      "projectPath": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Trabalho02.csproj",
+      "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lucas Rayzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

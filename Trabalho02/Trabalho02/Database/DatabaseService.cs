@@ -96,6 +96,39 @@ namespace Trabalho02.Database
         {
             return _database.DeleteAsync(user);
         }
-    
+        // Métodos CRUD para Habit
+        // Salvar ou atualizar um hábito
+        public Task<int> SaveHabitAsync(Habit habit)
+        {
+            if (habit.Id == 0)
+            {
+                return _database.InsertAsync(habit); // Insere se for novo
+            }
+            else
+            {
+                return _database.UpdateAsync(habit); // Atualiza se já existir
+            }
+        }
+
+        // Obter hábitos por TaskId
+        public Task<List<Habit>> GetHabitsByTaskIdAsync(int taskId)
+        {
+            return _database.Table<Habit>().Where(h => h.TaskId == taskId).ToListAsync();
+        }
+
+        // Obter hábitos por ProjectId (opcional, se necessário para listar hábitos de um projeto)
+        public Task<List<Habit>> GetHabitsByProjectIdAsync(int projectId)
+        {
+            return _database.QueryAsync<Habit>(
+                "SELECT * FROM Habit WHERE TaskId IN (SELECT Id FROM Task WHERE ProjectId = ?)", projectId);
+        }
+
+        // Deletar hábito
+        public Task<int> DeleteHabitAsync(Habit habit)
+        {
+            return _database.DeleteAsync(habit);
+        }
+
+
     }
 }

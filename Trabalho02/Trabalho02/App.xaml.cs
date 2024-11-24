@@ -1,5 +1,6 @@
 ﻿using Trabalho02.Database;
 using Trabalho02.Pages;
+using Trabalho02.Converters;
 
 namespace Trabalho02
 {
@@ -13,6 +14,7 @@ namespace Trabalho02
 
             // Define a LoginPage como a página inicial, passando o DatabaseService
             MainPage = new NavigationPage(new LoginPage(databaseService));
+            TaskNameConverter.Initialize(databaseService);
             //MainPage = new AppShell();
             //MainPage = new NavigationPage(new LoginPage());
         }
