@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\habitdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\pages\\taskdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\pages\\taskdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|solutionrelative:trabalho02\\model\\habit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9280D3E6-F68A-4A87-8D96-B0581A89A57D}|Trabalho02\\Trabalho02.csproj|c:\\users\\marci\\downloads\\git\\trab2_ddm\\trabalho02\\trabalho02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HabitDetailsPage.xaml",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\HabitDetailsPage.xaml",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\HabitDetailsPage.xaml",
@@ -187,8 +187,7 @@
               "RelativeToolTip": "Trabalho02\\Converters\\TaskStatusConverter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:00:09.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T07:00:09.128Z"
             },
             {
               "$type": "Document",
@@ -200,8 +199,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-12T22:53:16.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T22:53:16.978Z"
             },
             {
               "$type": "Document",
@@ -213,12 +211,11 @@
               "RelativeToolTip": "Trabalho02\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:31:42.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T06:31:42.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TaskDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
@@ -226,18 +223,17 @@
               "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAgwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:13:40.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T13:13:40.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Habit.cs",
               "DocumentMoniker": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
               "RelativeDocumentMoniker": "Trabalho02\\Model\\Habit.cs",
-              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs",
-              "RelativeToolTip": "Trabalho02\\Model\\Habit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marci\\Downloads\\GIT\\Trab2_DDM\\Trabalho02\\Trabalho02\\Model\\Habit.cs*",
+              "RelativeToolTip": "Trabalho02\\Model\\Habit.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T20:15:41.083Z",
               "EditorCaption": ""
@@ -252,8 +248,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\HabitDetailsPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:45:08.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T06:45:08.611Z"
             },
             {
               "$type": "Document",
@@ -265,8 +260,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\TaskDetailsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-12T22:57:44.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T22:57:44.366Z"
             },
             {
               "$type": "Document",
@@ -278,8 +272,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\ProjectDetailsPage.xaml.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAQwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:53:30.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T21:53:30.02Z"
             },
             {
               "$type": "Document",
@@ -291,8 +284,7 @@
               "RelativeToolTip": "Trabalho02\\Model\\Task.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:54:19.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T21:54:19.692Z"
             },
             {
               "$type": "Document",
@@ -304,8 +296,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:43:40.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T06:43:40.684Z"
             },
             {
               "$type": "Document",
@@ -317,8 +308,7 @@
               "RelativeToolTip": "Trabalho02\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T20:26:03.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T20:26:03.48Z"
             },
             {
               "$type": "Document",
@@ -330,8 +320,7 @@
               "RelativeToolTip": "Trabalho02\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T22:40:14.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T22:40:14.939Z"
             },
             {
               "$type": "Document",
@@ -343,8 +332,7 @@
               "RelativeToolTip": "Trabalho02\\Pages\\LoginPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T12:15:43.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T12:15:43.79Z"
             },
             {
               "$type": "Document",
@@ -452,8 +440,7 @@
               "RelativeToolTip": "Trabalho02\\Trabalho02.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-12T22:35:15.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T22:35:15.306Z"
             }
           ]
         }
